@@ -1,0 +1,179 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "Domine", serif;
+    background-color: darkolivegreen;
+    color: antiquewhite;
+    line-height: 1.6;
+    text-align: center;
+    
+}
+
+h1 {
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px ;
+    background-color: rgb(37, 44, 25) ;
+    border-bottom: 2px solid #fcda32;
+} 
+header img {
+    height: 95px;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    position: relative;
+}
+nav a {
+    color: #fcda32;
+    text-decoration:none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+main {
+max-width: 1200%;
+margin: 0px auto;
+padding: 0px;
+}
+.hero { 
+    width: 100%;
+   margin-bottom: 50px;
+}
+.hero img {
+    width: 100%;
+    max-height: 500%;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+.hero h1 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    color: #fcda32;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: small;
+    border-top: 2px solid #fcda32;
+}
+
+.Temporadas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 450%;
+    margin: 40px;
+   
+}
+
+.Imagenestemporada {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.Titulostemporada {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 16px 8px;
+    color: #fcda32;
+}
+
+.Parrafotemporada {
+    width: 50%;
+    max-width: 360px;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+
+.Elenco {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.Personajes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.Personajes img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 auto 12px auto;
+  display: block;
+}
+
+.Personajes h1 {
+  font-size: 1.15rem;
+  color: #fcda32;
+  margin: 0 0 8px 0;
+  
+}
+
+.Personajes p {
+  font-size: 0.85rem;
+  max-width: 240px;
+  line-height: 1.4;
+  color: antiquewhite;
+  margin: 0 auto;
+}
+
+.Contacto {
+    display: flex;
+    flex-direction: column;
+   
+
+}
