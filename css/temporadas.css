@@ -1,0 +1,43 @@
+.Temporadas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 450%;
+    margin: 40px;
+   
+}
+
+.Imagenestemporada {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Imagenestemporada:hover {
+    transform: translateY(-3px);
+       transform: scale(1.05);
+
+}
+.Titulostemporada {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 16px 8px;
+    color: #fcda32;
+}
+
+.Parrafotemporada {
+    width: 50%;
+    max-width: 360px;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: antiquewhite;
+    text-align: center;
+    
+}
