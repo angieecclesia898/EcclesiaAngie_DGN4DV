@@ -1,6 +1,47 @@
+.contacto {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.contacto h2 {
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contacto label {
+    font-size: 16px;
+}
+
+.contacto input,
+.contacto select,
+.contacto textarea {
+    padding: 12px;
+    border: 1px solid #999;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.contacto button {
+    padding: 12px;
+    border: none;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #555;
+}
 .Contacto {
     display: flex;
     flex-direction: column;
    
 
 }
+
