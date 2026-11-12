@@ -22,7 +22,7 @@
 .contacto select,
 .contacto textarea {
     padding: 12px;
-    border: 1px solid #999;
+    border: 1px solid #fcda32;
     font-family: inherit;
     font-size: 15px;
 }
@@ -36,7 +36,7 @@
 }
 
 .contacto button:hover {
-    background-color: #555;
+    background-color: #fcda32;
 }
 .Contacto {
     display: flex;
